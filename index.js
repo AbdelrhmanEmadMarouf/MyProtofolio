@@ -46,7 +46,7 @@
   }
 })();
 
-// CHANGED: Updated theme toggle to work with sun icon for light mode
+// ✅ FIXED: Dark mode is now default if not set
 (function initTheme() {
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', setupTheme);
@@ -59,8 +59,13 @@
     
     if (!themeToggle) return;
 
-    // Default to light theme, load saved preference
-    const savedTheme = localStorage.getItem('theme') || 'light';
+    // Default to dark theme if not set
+    let savedTheme = localStorage.getItem('theme');
+    if (!savedTheme) {
+      savedTheme = 'dark'; // make dark default
+      localStorage.setItem('theme', savedTheme);
+    }
+
     document.documentElement.setAttribute('data-theme', savedTheme);
 
     themeToggle.addEventListener('click', function() {
@@ -163,6 +168,7 @@
   }
 })();
 
+// CHANGED: Added lazy loading for images
 (function initLazyLoad() {
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', setupLazyLoad);
@@ -205,6 +211,7 @@
   }
 })();
 
+// CHANGED: Improved keyboard navigation accessibility
 (function initKeyboardNav() {
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', setupKeyboardNav);
