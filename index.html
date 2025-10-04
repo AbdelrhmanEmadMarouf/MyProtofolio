@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Abdelrhman Emad Marouf - Android Developer and Computer Engineering Student. Building user-friendly, secure, and scalable mobile apps.">
+    <meta property="og:title" content="Abdelrhman Emad Marouf - Android Developer">
+    <meta property="og:description" content="Computer & Systems Engineering Student specializing in Android Development">
+    <meta property="og:type" content="website">
+    <title>Abdelrhman Emad Marouf - Android Developer</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header class="site-header">
+        <nav class="nav-container" aria-label="Main navigation">
+            <a href="#hero" class="nav-brand">
+                <img src="Personal_Image.jpeg" alt="Personal photo of Abdelrhman Emad Marouf" class="nav-profile-image">
+                <span>Abdelrhman Emad</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#about">Career Objective</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#training">Training & Courses</a></li>
+                <li><a href="#skills">Skills & Expertise</a></li>
+                <li><a href="#activities">Extracurricular Activities</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle light mode">
+                <svg class="sun-icon" width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <circle cx="10" cy="10" r="4"/>
+                    <path d="M10 0v4M10 16v4M20 10h-4M4 10H0M16.36 3.64l-2.83 2.83M6.47 13.53l-2.83 2.83M16.36 16.36l-2.83-2.83M6.47 6.47L3.64 3.64"/>
+                </svg>
+                <svg class="moon-icon" width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"/>
+                </svg>
+            </button>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="hero" id="hero">
+            <div class="container hero-content">
+                <div class="hero-image-wrapper">
+                    <img src="Personal_Image2.jpeg" alt="Personal photo of Abdelrhman Emad Marouf" class="hero-profile-photo" loading="lazy">
+                </div>
+                <h1 class="hero-title" id="hero-name">Abdelrhman Emad Marouf</h1>
+                <p class="hero-role">Android Developer | Computer & Systems Engineering Student</p>
+                <p class="hero-tagline">Building user-friendly, secure, and scalable mobile apps.</p>
+                <p class="hero-location">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                        <path d="M8 0a6 6 0 00-6 6c0 4.5 6 10 6 10s6-5.5 6-10a6 6 0 00-6-6zm0 8a2 2 0 110-4 2 2 0 010 4z"/>
+                    </svg>
+                    Maadi, Egypt
+                </p>
+                <p class="hero-location">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                        <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328z"/>
+                    </svg>
+                    +20 115 148 9949
+                </p>
+                <div class="hero-links">
+                    <a href="mailto:abdelrmanemad999@gmail.com" class="hero-link" aria-label="Email Abdelrhman Emad Marouf">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
+                            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
+                        </svg>
+                        Email
+                    </a>
+                    <a href="https://wa.me/201151489949" target="_blank" rel="noopener noreferrer" class="hero-link" aria-label="WhatsApp chat">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                            <path d="M10.002 0C4.477 0 0 4.477 0 10c0 1.89.525 3.66 1.438 5.168L.546 18.2a.75.75 0 00.908.908l3.032-.892A9.96 9.96 0 0010.002 20c5.523 0 10-4.477 10-10s-4.477-10-10-10zm5.45 14.442c-.244.688-1.441 1.283-1.973 1.323-.513.038-.994.244-3.349-.697-2.99-1.197-4.926-4.202-5.074-4.395-.149-.193-1.215-1.617-1.215-3.084 0-1.468.769-2.19 1.042-2.489.273-.3.596-.374.795-.374.2 0 .397.002.571.01.183.009.428-.07.67.511.244.582.832 2.03.905 2.177.074.149.123.323.025.516-.1.193-.148.314-.297.485-.148.17-.312.38-.446.51-.148.149-.302.31-.13.607.174.298.772 1.273 1.657 2.063 1.14.017 2.007 1.577 2.007 1.577l.421-.298c.273-.199.596-.166.795.075.198.24 1.315 1.56 1.315 1.56.198.199.297.373.248.596-.05.224-.05.522-.294 1.21z"/>
+                        </svg>
+                        WhatsApp
+                    </a>
+                    <a href="https://www.linkedin.com/in/abdelrhman-emad-3419422b2" target="_blank" rel="noopener noreferrer" class="hero-link" aria-label="LinkedIn profile">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                            <path d="M4.5 3A1.5 1.5 0 003 4.5v11A1.5 1.5 0 004.5 17h11a1.5 1.5 0 001.5-1.5v-11A1.5 1.5 0 0015.5 3h-11zM6 7.5a1 1 0 112 0v5a1 1 0 11-2 0v-5zM7 5a1 1 0 100 2 1 1 0 000-2zm3 2.5a1 1 0 012 0v.5a2 2 0 114 0v4.5a1 1 0 11-2 0V8a1 1 0 10-2 0v4.5a1 1 0 11-2 0v-5z"/>
+                        </svg>
+                        LinkedIn
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="hero-link" aria-label="GitHub profile">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                            <path d="M10 0C4.477 0 0 4.477 0 10c0 4.42 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0110 4.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C17.137 18.163 20 14.418 20 10c0-5.523-4.477-10-10-10z"/>
+                        </svg>
+                        GitHub
+                    </a>
+                </div>
+                <a href="Abdelrhman_Emad_Marouf_CV.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                    SHOW CV
+                </a>
+            </div>
+        </section>
+
+        <section class="section about" id="about">
+            <div class="container">
+                <h2 class="section-title">Career Objective</h2>
+                <p class="about-text">Enthusiastic and detail-oriented Computer Engineering student with a strong passion for Android mobile app development. Skilled in Java, Kotlin, and modern Android technologies. Eager to grow in a dynamic team and contribute to real-world solutions.</p>
+            </div>
+        </section>
+
+        <section class="section education" id="education">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <article class="education-item">
+                    <h3 class="education-degree">BSc in Computer and Systems Engineering</h3>
+                    <p class="education-school">Helwan University</p>
+                    <p class="education-date">2023 – 2028</p>
+                </article>
+            </div>
+        </section>
+<section class="section projects" id="projects">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <img src="gaming_platform_image.png" alt="Gaming Platform desktop application screenshot" class="project-image" loading="lazy">
+                        <div class="project-content">
+                            <h3 class="project-title">Gaming Platform (Desktop)</h3>
+                            <p class="project-problem">A comprehensive desktop gaming platform featuring multiple classic games with an intuitive user interface.</p>
+                            <h4 class="project-subtitle">Key Features</h4>
+                            <ul class="project-features">
+                                <li>Object-oriented design using UML diagrams</li>
+                                <li>Interactive GUI built with Java Swing and JavaFX</li>
+                                <li>Multiple game modes and player profiles</li>
+                                <li>Score tracking and leaderboard system</li>
+                            </ul>
+                            <p class="project-tech"><strong>Tech Stack:</strong> Java, Swing, JavaFX, UML</p>
+                            <h4 class="project-subtitle">My Role</h4>
+                            <ul class="project-role">
+                                <li>Developed the complete application architecture and user interface</li>
+                                <li>Implemented game logic and event handling systems</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="https://github.com/AbdelrhmanEmadMarouf/games_project" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" aria-label="View Gaming Platform on GitHub">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+                                    </svg>
+                                    GitHub
+                                </a>
+                                <a href="https://drive.google.com/file/d/1zPHSqzYHb8I3an35Q-ltZ6mMLa8Z7laK/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" aria-label="View Gaming Platform demo">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                                        <path d="M8 0a8 8 0 100 16A8 8 0 008 0zM6.5 5l5 3-5 3V5z"/>
+                                    </svg>
+                                    Demo
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <img src="note_app_project_image.png" alt="Note App Android application screenshot" class="project-image" loading="lazy">
+                        <div class="project-content">
+                            <h3 class="project-title">Note App (Android)</h3>
+                            <p class="project-problem">A modern note-taking Android application with an intuitive interface for creating, editing, and managing notes efficiently.</p>
+                            <h4 class="project-subtitle">Key Features</h4>
+                            <ul class="project-features">
+                                <li>Create, edit, and delete notes seamlessly</li>
+                                <li>Clean and modern Material Design UI</li>
+                                <li>Local data persistence with Room Database</li>
+                                <li>Fast and responsive user experience</li>
+                            </ul>
+                            <p class="project-tech"><strong>Tech Stack:</strong> Kotlin, Room Database, MVVM Architecture, Material Design</p>
+                            <h4 class="project-subtitle">My Role</h4>
+                            <ul class="project-role">
+                                <li>Designed and implemented the complete Android application</li>
+                                <li>Integrated Room Database for local data storage</li>
+                                <li>Applied MVVM architecture pattern for clean code structure</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="https://github.com/AbdelrhmanEmadMarouf/Note_App" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" aria-label="View Note App on GitHub">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+                                    </svg>
+                                    GitHub
+                                </a>
+                                <a href="https://drive.google.com/file/d/1jUzg7QI9HKqNtsEPB-3LmiJwrlKFcJ8h/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" aria-label="View Note App demo">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                                        <path d="M8 0a8 8 0 100 16A8 8 0 008 0zM6.5 5l5 3-5 3V5z"/>
+                                    </svg>
+                                    Demo
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <img src="chat_bot_image_app_project.png" alt="Smart Food Planner chatbot application screenshot" class="project-image" loading="lazy">
+                        <div class="project-content">
+                            <h3 class="project-title">Smart Food Planner (Chatbot)</h3>
+                            <p class="project-problem">An intelligent Android chatbot application that helps users plan their meals and provides nutritional guidance through conversational AI.</p>
+                            <h4 class="project-subtitle">Key Features</h4>
+                            <ul class="project-features">
+                                <li>AI-powered conversational interface</li>
+                                <li>Personalized meal planning recommendations</li>
+                                <li>Nutritional information and dietary advice</li>
+                                <li>Interactive and user-friendly chat experience</li>
+                            </ul>
+                            <p class="project-tech"><strong>Tech Stack:</strong> Kotlin, Gemini AI API, Retrofit, Modern Android Architecture</p>
+                            <h4 class="project-subtitle">My Role</h4>
+                            <ul class="project-role">
+                                <li>Integrated Gemini AI API for intelligent responses</li>
+                                <li>Developed the chat interface and message handling system</li>
+                                <li>Implemented real-time data synchronization</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="https://github.com/AbdelrhmanEmadMarouf/smart-food-planner" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" aria-label="View Smart Food Planner on GitHub">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+                                    </svg>
+                                    GitHub
+                                </a>
+                                <a href="https://drive.google.com/file/d/1rQK3g6y1hA3Rd37KiF0q9xGntutqwTJn/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" aria-label="View Smart Food Planner demo">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                                        <path d="M8 0a8 8 0 100 16A8 8 0 008 0zM6.5 5l5 3-5 3V5z"/>
+                                    </svg>
+                                    Demo
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <img src="drawing_app_image_project.png" alt="Drawing App Android application screenshot" class="project-image" loading="lazy">
+                        <div class="project-content">
+                            <h3 class="project-title">Drawing App (Android)</h3>
+                            <p class="project-problem">A creative drawing application for Android that allows users to express their artistic ideas with various tools and colors.</p>
+                            <h4 class="project-subtitle">Key Features</h4>
+                            <ul class="project-features">
+                                <li>Multiple brush sizes and drawing tools</li>
+                                <li>Color picker with extensive palette</li>
+                                <li>Undo and redo functionality</li>
+                                <li>Save and share drawings</li>
+                            </ul>
+                            <p class="project-tech"><strong>Tech Stack:</strong> Kotlin, Custom Canvas Views, Material Design</p>
+                            <h4 class="project-subtitle">My Role</h4>
+                            <ul class="project-role">
+                                <li>Built custom drawing canvas with touch gesture support</li>
+                                <li>Implemented drawing tools and color management system</li>
+                                <li>Created intuitive UI for seamless drawing experience</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="https://github.com/AbdelrhmanEmadMarouf/DrawingApp" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" aria-label="View Drawing App on GitHub">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+                                    </svg>
+                                    GitHub
+                                </a>
+                                <a href="https://drive.google.com/file/d/11WUMEoVud6F7K0WSLTPDRbLXJ3yhIWO3/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" aria-label="View Drawing App demo">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                                        <path d="M8 0a8 8 0 100 16A8 8 0 008 0zM6.5 5l5 3-5 3V5z"/>
+                                    </svg>
+                                    Demo
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="section training" id="training">
+            <div class="container">
+                <h2 class="section-title">Training & Courses</h2>
+                <div class="training-grid">
+                    <article class="training-item">
+                        <h3 class="training-title">Android App Development Track</h3>
+                        <p class="training-org">DEPI (Digital Egypt Pioneers Initiative)</p>
+                        <p class="training-date">June – December 2025</p>
+                        <p class="training-description">Comprehensive training in modern Android development including Kotlin, Jetpack Compose, and Android architecture components.</p>
+                    </article>
+                    <article class="training-item">
+                        <h3 class="training-title">Summer Training Program</h3>
+                        <p class="training-org">Helwan University</p>
+                        <p class="training-date">June – August 2025</p>
+                        <p class="training-description">Intensive training covering Embedded Systems (C programming) and Web Development (HTML, CSS, JavaScript, Python).</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section skills" id="skills">
+            <div class="container">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <div class="skills-grid">
+                    <article class="skill-category">
+                        <h3 class="skill-category-title">Languages & Technologies</h3>
+                        <ul class="skill-list">
+                            <li>Java</li>
+                            <li>Kotlin</li>
+                            <li>C++</li>
+                            <li>Python</li>
+                        </ul>
+                    </article>
+                    <article class="skill-category">
+                        <h3 class="skill-category-title">Android Development</h3>
+                        <ul class="skill-list">
+                            <li>Jetpack Compose</li>
+                            <li>Android MDC</li>
+                            <li>Android Security Essentials</li>
+                        </ul>
+                    </article>
+                    <article class="skill-category">
+                        <h3 class="skill-category-title">Tools & Practices</h3>
+                        <ul class="skill-list">
+                            <li>Git</li>
+                            <li>GitHub</li>
+                            <li>Unit Testing</li>
+                            <li>Functional Documentation</li>
+                        </ul>
+                    </article>
+                    <article class="skill-category">
+                        <h3 class="skill-category-title">Additional Skills</h3>
+                        <ul class="skill-list">
+                            <li>UX/UI Basics</li>
+                            <li>Prompt Engineering</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section activities" id="activities">
+            <div class="container">
+                <h2 class="section-title">Extracurricular Activities</h2>
+                <div class="activities-grid">
+                    <article class="activity-item">
+                        <div class="activity-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V7.3l7-3.11v8.8z"/>
+                            </svg>
+                        </div>
+                        <h3 class="activity-title">Technical Mentor</h3>
+                        <p class="activity-org">CPC Helwan Engineering Club</p>
+                        <p class="activity-description">Mentoring students in programming fundamentals and competitive programming techniques.</p>
+                    </article>
+                    <article class="activity-item">
+                        <div class="activity-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="activity-title">Organizing Committee Member</h3>
+                        <p class="activity-org">Helwan Cyber Arena (Hackathon)</p>
+                        <p class="activity-description">Helped organize and coordinate a university-wide cybersecurity hackathon event.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Abdelrhman Emad. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
